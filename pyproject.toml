@@ -136,6 +136,11 @@ classifiers = [
     "Topic :: Software Development :: Build Tools",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+include = [
+    "docs/*.md",
+    "assets/*.png",
+    "assets/*.svg"
+]
 
 [tool.poetry.scripts]
 dephell = "dephell.cli:entrypoint"
